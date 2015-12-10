@@ -25,7 +25,8 @@ class Kimono(object):
     def api_url(self, query_params={}):
         if self.kimmodify:
             query_params['kimmodify'] = 1
-        query_params['apikey'] = self.api_key
+        if self.api_key:
+            query_params['apikey'] = self.api_key
         return "%s/%s/?%s" % (BASE_URL, self.api_id, urlencode(query_params))
 
     def fetch(self):
