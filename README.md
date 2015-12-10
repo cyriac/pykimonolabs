@@ -1,6 +1,11 @@
-## PYKIMONOLABS
+## pykimonolabs
 
 This package can be used to access the API's build on top of kimonolabs
+
+## Installation
+```
+pip install pykimonolabs
+```
 
 ## Usage
 ```

@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='pykimonolabs',
-      version='0.1',
+      version='0.1.1',
       description='Python library to access APIs created on kimonolabs.com',
       url='http://github.com/cyriac/pykimonolabs',
       author='Cyriac Thomas',
