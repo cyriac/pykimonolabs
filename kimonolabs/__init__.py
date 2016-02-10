@@ -48,8 +48,8 @@ class Kimono(object):
         warnings.warn("This function is deprecated.")
         return self.get_api_url()
 
-    def fetch(self):
-        return self.request(self.get_api_url())
+    def fetch(self, query_params={}):
+        return self.request(self.get_api_url(query_params))
 
     @property
     def data(self):
